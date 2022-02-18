@@ -2,7 +2,7 @@ const BG_COLOUR = '#231f20';
 const SNAKE_COLOUR = '#c2c2c2';
 const FOOD_COLOUR = '#e66916';
 
-const socket = io('https://vast-retreat-41648.herokuapp.com/');
+const socket = io('https://dazzling-brahmagupta-49df4e.netlify.app/');
 
 socket.on('init', handleInit);
 socket.on('gameState', handleGameState);
